@@ -1,0 +1,102 @@
+<!--default.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+    <title>{{page.title}}</title>
+
+    <!-- for mathjax support -->
+    <script type="text/x-mathjax-config;executed=true">
+                MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+                    tex2jax: { inlineMath: [ ["$", "$"], ["\\\\(","\\\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+                    TeX: {
+                        extensions: ["begingroup.js"],
+                        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, 
+                        Macros: { href: "{}" } 
+                    },
+                    messageStyle: "none",
+                    styles: { ".MathJax_Display, .MathJax_Preview, .MathJax_Preview > *": { "background": "inherit" } },
+                    SEEditor: "mathjaxEditing"
+            });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML-full"></script>
+</head>
+<body>
+  <div class="content-footer-area">
+    {% include navbar.html %}
+    <div class="content-area">
+      <div class="main-card">
+        {{ content }}
+      </div>
+      <div class="sidenav-container">
+        <div class="sidenav">
+          <button class="accordion top-level">Projects</button>
+          <div class="panel">
+          </div>
+
+          <button class="accordion top-level">Music</button>
+          <div class="panel">
+          </div>
+
+          <button class="accordion top-level">Posts</button>
+          <div class="panel">
+            {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            {% for year in postsByYear %}
+              <button class="accordion second-level">{{ year.name }}</button>
+              <div class="panel">
+                {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+                {% for month in postsByMonth %}
+                  <button class="accordion third-level">{{ month.name }}</button>
+                  <div class="panel" style=>
+                    <ul class="post-list">
+                      {% for post in month.items %}
+                      <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+
+          <button class="accordion top-level">CV</button>
+          <div class="panel">
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </div>
+
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+
+          var parent = this.parentNode;
+          while (parent.className == "panel")
+          {
+            console.log(parent);
+            parent.style.maxHeight = parseInt(parent.style.maxHeight, 10 ) + parseInt(panel.scrollHeight, 10) + "px";;
+            parent = parent.previousElementSibling.parentNode;
+          }
+      });
+    }
+  </script>
+</body>
+</html>

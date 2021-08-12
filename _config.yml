@@ -27,11 +27,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jeffx99
 repository: jeffx99/jeffx99.github.io
 
+# Disable theme
+theme: null
+
 # Build settings
-remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+markdown: kramdown
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
