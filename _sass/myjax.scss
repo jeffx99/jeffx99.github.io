@@ -1,0 +1,66 @@
+// myjax.scss
+
+.theorem, .lemma, {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	font-style: italic;
+}
+
+.corollary, .question {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.theorem:before{
+	content: "Theorem. ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.lemma:before{
+	content: "Lemma. ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.corollary:before{
+	content: "Corollary. ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.question:before{
+	content: "Question. ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.theorem[text]:before, .lemma[text]:before, .corollary[text]:before, .question[text]:before {
+	content: "<b>Theorem</b>. "attr(text) ")";
+	font-weight: normal;
+}
+
+.proof {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: inline;
+	font-style: normal;
+}
+
+.proof:before {
+	content: "Proof. ";
+	font-style: italic;
+}
+
+.proof:after {
+	content: '\25A1';
+	font-size: 20px;
+	text-align: right;
+    float:right;
+}
+
+.proof[text]:before {
+	content: attr(text);
+}

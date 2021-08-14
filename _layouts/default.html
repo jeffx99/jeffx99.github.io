@@ -10,18 +10,58 @@
     <title>{{page.title}}</title>
 
     <!-- for mathjax support -->
-    <script type="text/x-mathjax-config;executed=true">
-                MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-                    tex2jax: { inlineMath: [ ["$", "$"], ["\\\\(","\\\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
-                    TeX: {
-                        extensions: ["begingroup.js"],
-                        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, 
-                        Macros: { href: "{}" } 
-                    },
-                    messageStyle: "none",
-                    styles: { ".MathJax_Display, .MathJax_Preview, .MathJax_Preview > *": { "background": "inherit" } },
-                    SEEditor: "mathjaxEditing"
-            });
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: [
+          "MathMenu.js",
+          "MathZoom.js",
+          "AssistiveMML.js",
+          "a11y/accessibility-menu.js"
+        ],   
+        tex2jax: {
+          inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+        },
+        jax: ["input/TeX", "output/CommonHTML"],
+        TeX: {
+          extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js",
+          ],
+
+          Macros: {
+            mb: ["{\\mathbb #1}", 1],
+            mc: ["{\\mathcal #1}", 1],
+            mf: ["{\\mathfrak #1}", 1],
+            bydef: "\\mathbin{\\overset{\\rm def}{=}",
+            N: "\\mathbb{N}",
+            Z: "\\mathbb{Z}",
+            R: "\\mathbb{R}",
+
+            d: "{\\rm d}",
+            div: "\\operatorname{div}",
+            tr: "\\operatorname{tr}",
+            Ric: "\\operatorname{Ric}",
+            Rm: "\\operatorname{Rm}",
+            Hess: "\\operatorname{Hess}",
+            supp: "\\operatorname{supp}",
+            area: "\\operatorname{area}",
+            vol: "\\operatorname{vol}",
+            im: "\\operatorname{im}",
+            ker: "\\operatorname{ker}",
+            id: "{\\operatorname{id}}",
+
+            abs: ["{\\lvert #1 \\rvert}", 1],
+            abs_: ["{\\left\\lvert #1 \\right\\rvert}", 1],
+            inner: ["{\\langle #1 \\rangle}", 1],
+            inner_: ["{\\left\\langle #1 \\right\\rangle}", 1],
+
+            pder: ["{\\frac{\\partial #1}{\\partial #2}}", 2],
+            der: ["{\\frac{\\mathrm{d} #1}{\\mathrm{d} #2}}", 2]
+          }
+        }
+      });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML-full"></script>
 </head>
