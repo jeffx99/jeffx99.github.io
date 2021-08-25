@@ -1,5 +1,9 @@
 // myjax.scss
 
+.MathJax_Display {
+    overflow-x: scroll;
+}
+
 .theorem, .lemma, {
 	margin-top: 10px;
 	margin-bottom: 10px;

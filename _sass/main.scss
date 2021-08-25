@@ -22,6 +22,14 @@ h2, h3, h4, h5, h6 {
 	text-align: left;
 }
 
+.music-card {
+  /* Add shadows to create the "card" effect */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .accordion {
   font-family: Cinzel, serif;
   background-color: #f7f7f5;
@@ -209,12 +217,14 @@ nav a:hover {
 }
 
 @media screen and (max-width: 900px) {
+
 	.content-area {
 		display: flex;
  		flex-direction: column;
  		height: 100%;
   	}
   	.main-card {
+      font-size: 9.5px;
   		flex-grow: 1;
   		margin: auto;
   	}
