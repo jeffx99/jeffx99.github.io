@@ -211,7 +211,7 @@ In practice, this means if one were to "start from scratch" I would suggest one 
 
 1. Learn how to hear elements of $S^2(\mathscr{P}\_{\rm C})/{\sim_{\rm H}}$, "harmonic content" of size 2. In practice, this involves recognizing and categorizing into 6 categories.
 
-2. Learn how to hear harmonic intervals($S^2(\mathscr{P})/{\sim_{\rm H}}$) and relative chroma($\mathscr{P}\_{\rm SC}$, 12 categories) at roughly the same pace. This order stems from the fact that they both have a reasonably "canonical" map to $S^2(\mathscr{P})/{\sim_{\rm H}}$. Additionally, I suspect learning 1. will make this step significantly easier.
+2. Learn how to hear harmonic intervals($S^2(\mathscr{P})/{\sim_{\rm H}}$) and relative chroma($\mathscr{P}\_{\rm SC}$, 12 categories) at roughly the same pace. This order stems from the fact that they both have a reasonably "canonical" map to $S^2(\mathscr{P_{\rm C}})/{\sim_{\rm H}}$. Additionally, I suspect learning 1. will make this step significantly easier.
 
 3. Learn how to hear larger harmonic shapes and contents. Here an indirect strategy of perceiving smaller "subshapes" or "subcontents" and determining how they "fit" together may be useful.
 
