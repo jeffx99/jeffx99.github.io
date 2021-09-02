@@ -77,6 +77,7 @@
       var sheets = document.querySelectorAll('[id^=sheet]');
       for(let i = 0; i < sheets.length; i++){
         var abc = sheets[i].firstElementChild.textContent;
+        var width = (sheets[i].firstElementChild.style.getPropertyValue("--staff-size") || 700);
         var id = sheets[i].id;
         var audio_id = id.replace("sheet", "audio");
         /* do your thing */
@@ -87,11 +88,11 @@
         } else {
           document.querySelector("#" + audio_id).innerHTML = "<div class='audio-error'>Audio is not supported in this browser.</div>";
         }
-        setTune(false, abc, id, synthControl);
+        setTune(false, abc, width, id, synthControl);
         }
     }
 
-    function setTune(userAction, code, name, control) {
+    function setTune(userAction, code, width, name, control) {
       function clickListener(abcElem, tuneNumber, classes, analysis, drag, mouseEvent)
       {
         var lastClicked = abcElem.midiPitches;
@@ -109,8 +110,8 @@
         add_classes: true,
         clickListener: clickListener,
         responsive: "resize",
-        staffwidth: 700,
-        wrap: { minSpacing: 1.8,maxSpacing: 2.8,preferredMeasuresPerLine: 4}
+        staffwidth: width,
+        wrap: { minSpacing: 1.8, maxSpacing: 2.8, preferredMeasuresPerLine: 5}
       };
 
       control.disable(true);
@@ -169,6 +170,7 @@
             mb: ["{\\mathbb #1}", 1],
             mc: ["{\\mathcal #1}", 1],
             mf: ["{\\mathfrak #1}", 1],
+            msc: ["{\\mathscr #1}", 1],
             bydef: "\\mathbin{\\overset{\\rm def}{=}",
             N: "\\mathbb{N}",
             Z: "\\mathbb{Z}",

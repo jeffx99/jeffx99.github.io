@@ -18,6 +18,15 @@ h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+blockquote {
+  background-image: linear-gradient(to right, rgb(230, 230, 230) , rgb(247, 247, 245));
+  color: rgb(95, 115, 110);
+  border-left: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(100, 100, 100);
+  padding: 10px;
+}
+
 .header {
 	text-align: left;
 }
@@ -28,6 +37,14 @@ h2, h3, h4, h5, h6 {
   margin: auto;
   margin-bottom: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.fig-caption {
+  width: 80%;
+  margin: auto;
+  font-size: 10px;
+  color: rgb(50, 50, 50);
+  text-align: center;
 }
 
 .accordion {
@@ -217,6 +234,10 @@ nav a:hover {
 }
 
 @media screen and (max-width: 900px) {
+
+  .fig-caption {
+    font-size: 7px;
+  }
 
 	.content-area {
 		display: flex;
