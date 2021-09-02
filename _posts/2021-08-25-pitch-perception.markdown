@@ -8,7 +8,7 @@ categories: music
 The purpose of this post is twofold: 
 
 1. to define some mathematical objects and spaces(also for future musical analysis) representing a small subset of what I call the "relevant(to the Western idiom) abstract features" of music, and
-3. to discuss and speculate about the process of the musical perception of these features and perceptual tasks/strategies, and argue against what I call "hyperattention" and suggest how this can be avoided.
+3. to discuss and (largely) speculate about the process of the musical perception of these features and perceptual tasks/strategies, and argue against what I call "hyperattention" and suggest how this can be avoided.
 
 
 ## Frequency and Pitch
@@ -205,7 +205,17 @@ This hypothesis argues against a <a href="https://en.wikipedia.org/wiki/Interval
 
 While I have presented an argument that functionally, in terms of completing perceptual tasks, one is benefited by a direct strategy and inhibited by hyperattention, I would also argue that subjectively, one's musical experience is simply broadened by the ability to immediately perceive both high-level and low-level abstract features. One needs to see the forest for the trees, and yet recognize how each individual tree comprises the forest. So to clarify, I don't mean to argue that indirect strategies are never useful, but rather that more direct strategies represent an immediate perception more in line with the feature at hand, and that hyperattention makes this more difficult.
 
-This gives some suggestions on how one should musically train their ear. In particular one should focus on perceiving "coarser" features before moving on to "finer" features. This precludes the possibility of hyperattention to a "fine" feature and the use of an indirect strategy to deduce coarser features. I suggest a guideline for determining what features are coarse and fine based on the spaces each abstract feature lies in and the possibility of "canonical" maps existing between them. The existence of such a map(say from $X$ to $Y$) implies the existence of an indirect strategy that determines a feature in $Y$ from one in $X$. Thus, learning to perceive $Y$ before $X$ should prevent hyperattention from interfering with perceptual learning.
+This gives some suggestions on how one should musically train their ear. In particular one should focus on perceiving "coarser" features before moving on to "finer" features. This precludes the possibility of hyperattention to a "fine" feature and the use of an indirect strategy to deduce coarser features. I suggest a guideline for determining what features are coarse and fine based on the spaces each feature lies in and the possibility of "canonical" maps existing between them. The existence of such a map(say from $X$ to $Y$) implies the existence of an indirect strategy that determines a feature in $Y$ from one in $X$. However, indirect strategies do have their use and are sometimes unavoidable. I would suggest an indirect strategy only when it leaves no possibility of inaccurate or inefficient performance, in contrast to the absolute pitch strategies we saw earlier.
+
+In practice, this means if one were to "start from scratch" I would suggest one to:
+
+1. Learn how to hear elements of $S^2(\mathscr{P}\_{\rm C})/{\sim_{\rm H}}$, "harmonic content" of size 2. In practice, this involves recognizing and categorizing into 6 categories.
+
+2. Learn how to hear harmonic intervals($S^2(\mathscr{P})/{\sim_{\rm H}}$) and relative chroma($\mathscr{P}\_{\rm SC}$, 12 categories) at roughly the same pace. This order stems from the fact that they both have a reasonably "canonical" map to $S^2(\mathscr{P})/{\sim_{\rm H}}$. Additionally, I suspect learning 1. will make this step significantly easier.
+
+3. Learn how to hear larger harmonic shapes and contents. Here an indirect strategy of perceiving smaller "subshapes" or "subcontents" and determining how they "fit" together may be useful.
+
+
 
 
 
