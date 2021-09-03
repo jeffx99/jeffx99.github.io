@@ -209,12 +209,4 @@ This hypothesis argues against a <a href="https://en.wikipedia.org/wiki/Interval
 
 While I have presented an argument that functionally, in terms of completing perceptual tasks, one is benefited by a direct strategy and inhibited by hyperattention, I would also argue that subjectively, one's musical experience is simply broadened by the ability to immediately perceive both high-level and low-level abstract features. One needs to see the forest for the trees, and yet recognize how each individual tree comprises the forest. Clarifying, I don't mean to argue that indirect strategies are never useful, but rather that more direct strategies represent an immediate perception more in line with the feature at hand, and that hyperattention makes this more difficult.
 
-I'll note that one can be completely competent only being able to immediately perceive the "particulars," for example, AP lends one the ability to deduce the features of almost anything in terms of the perceptual categories for absolute chroma(e.g. equal-tempered $\text{A} = 440\text{Hz}$ music), while non-AP listeners of Western tonal music can easily and intuitively process things in terms of categories for relative chroma as well. 
-
-
-
-
-
-
-
-
+I'll note that one can be completely competent only being able to immediately perceive the "particulars," for example, AP lends one the ability to deduce the features of almost anything in terms of the perceptual categories for absolute chroma (e.g. equal-tempered $\text{A} = [440\text{Hz}]$ music), while non-AP listeners of Western tonal music can easily and intuitively process things in terms of categories for relative chroma as well. 
