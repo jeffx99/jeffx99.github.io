@@ -144,7 +144,9 @@ We refer to an element of $S^k(\msc{P}\_{\rm RC})$ as _functional harmonic conte
 <div class="fig-caption">Figure: After establishing a tonic $\text{A}\flat$, these collections of pitches have functional contents $\{\text{re, do, fa}\}$, $\{\text{so, ti, fa}\}$ and $\{\text{do, ti, mi}\}$. </div>
 
 Functional harmony may be thought of as a collection of sets of "similar" functional content, with possibly a "bass note" identified. So in the previous example, one may write $\\{\text{re, do, fa}\\} \in \mathrm{ii}$, $\\{\text{so, ti, fa}\\} \in \mathrm{V}$ and $\\{\text{do, ti, mi}\\} \in \mathrm{I}$.
- 
+
+---
+
 ## Perception
 
 _Perception_ is a process in which the brain automatically synthesizes and inteprets high-level constructs or representations from raw sensory input. I will distinguish between _bottom-up_, "implicit" perception, which is the subconscious processing of low- to high-level information, and _top-down_, "explicit" perception which is the process of accessing these high-level constructs. 
@@ -182,7 +184,9 @@ I believe it is musically important for one to be able to succeed in many of the
 
  Whether or not this particular details of this hypothesis are true, I argue that the theme behind this logic is in fact applicable to music perception as a whole, and suggests how one should learn to perceive the features I mention. Specifically, I propose that:
 
-- In a given perceptual task, "hyperattention" to lower-level information on the perceptual hierarchy, or to information unrelated to the perceptual task, may inhibit the process of top-down perceptual learning as posited by RHT, if this information can be used to form an indirect strategy. Consequently, with poor learning, high-level representations of abstract features have lower fidelity and so the use direct strategies(relying on only immediate top-down access) in perceptual tasks is also inhibited.
+- In a given perceptual task, "hyperattention" to lower-level information on the perceptual hierarchy, or to information unrelated to the perceptual task, may inhibit the process of top-down perceptual, if this information can be used to form an indirect strategy. Consequently, with poor learning, high-level representations of abstract features have lower fidelity and so direct strategies(which rely on access of high-level representations)are also inhibited.
+
+In musical terms, this hypothesis mainly implies that the perception of harmonic constructs can be hindered by hyperattention.
 
 By "hyperattention," I refer to preferential access and conscious attention given to information in a way differing from the usual, top-down access posited by RHT. See the following excerpts from abstracts from <a href="https://doi.org/10.2307/40285562" target="blank">two</a> <a href="https://doi.org/10.2307/40285599" target="blank">papers</a> by Ken'ichi Miyazaki:
 
@@ -198,22 +202,17 @@ Under my hypothesis, this can be explained as AP possessors defaulting to an _in
 
 Another (anecdotal) example is what I find myself doing sometimes when presented the task of identifying intervals. If I have a tonal center, I often rely on the relative chroma category of each note to determine the appropriate interval. Subjectively, I find that I am not _hearing_ the interval, but rather _deducing it_. As a result, my immediate perception of harmonic intervals is currently more weak than I would like it to be.
 
-This hypothesis argues against a <a href="https://en.wikipedia.org/wiki/Interval_recognition#Reference_songs" target="blank">commonly taught technique</a> of interval recognition. The linked page suggests a myriad of songs that will supposedly teach one to perceive a given interval commonly used in the Western idiom. However, these songs are heard and thought of in a tonal context. Thus, when one says "use the second and third notes of 'Ode to Joy' to learn an ascending minor second," what is likely to happen is that one learns that "$\text{fa}$ above $\text{mi}$" _constitutes_ a minor second. When asked to identify a minor second, such a person will more likely than not mentally recall "Ode to Joy," refitting the heard minor second in the context of the piece. Thus even if in context, the minor second is $\text{ti-do}$, such a person must refit it mentally to sound as $\text{mi-fa}$ in order to recognize it. I believe this is really an indirect strategy, and will cause inefficiencies and inaccuracies when in unclear tonal contexts or contexts that do not match the "reference songs" learned.
+This hypothesis argues against a <a href="https://en.wikipedia.org/wiki/Interval_recognition#Reference_songs" target="blank">commonly taught technique</a> of interval recognition. The linked page suggests a myriad of songs that will supposedly teach one to perceive a given interval commonly used in Western music. However, these songs are heard and thought of in a tonal context. Thus, when one says "use the second and third notes of 'Ode to Joy' to learn an ascending minor second," what is likely to happen is that one learns that "$\text{fa}$ above $\text{mi}$" _constitutes_ a minor second. When asked to identify a minor second, such a person will more likely than not mentally recall "Ode to Joy," refitting the heard minor second in the context of the piece. Thus even if in context, the minor second is $\text{ti-do}$, such a person must refit it mentally to sound as $\text{mi-fa}$ in order to recognize it. I believe this is really an indirect strategy, and will cause inefficiencies and inaccuracies when in unclear tonal contexts or contexts that do not match the "reference songs" learned.
 
 
 ### Ear Training
 
-While I have presented an argument that functionally, in terms of completing perceptual tasks, one is benefited by a direct strategy and inhibited by hyperattention, I would also argue that subjectively, one's musical experience is simply broadened by the ability to immediately perceive both high-level and low-level abstract features. One needs to see the forest for the trees, and yet recognize how each individual tree comprises the forest. So to clarify, I don't mean to argue that indirect strategies are never useful, but rather that more direct strategies represent an immediate perception more in line with the feature at hand, and that hyperattention makes this more difficult.
+While I have presented an argument that functionally, in terms of completing perceptual tasks, one is benefited by a direct strategy and inhibited by hyperattention, I would also argue that subjectively, one's musical experience is simply broadened by the ability to immediately perceive both high-level and low-level abstract features. One needs to see the forest for the trees, and yet recognize how each individual tree comprises the forest. Clarifying, I don't mean to argue that indirect strategies are never useful, but rather that more direct strategies represent an immediate perception more in line with the feature at hand, and that hyperattention makes this more difficult.
 
-This gives some suggestions on how one should musically train their ear. In particular one should focus on perceiving "coarser" features before moving on to "finer" features. This precludes the possibility of hyperattention to a "fine" feature and the use of an indirect strategy to deduce coarser features. I suggest a guideline for determining what features are coarse and fine based on the spaces each feature lies in and the possibility of "canonical" maps existing between them. The existence of such a map(say from $X$ to $Y$) implies the existence of an indirect strategy that determines a feature in $Y$ from one in $X$. However, indirect strategies do have their use and are sometimes unavoidable. I would suggest an indirect strategy only when it leaves no possibility of inaccurate or inefficient performance, in contrast to the absolute pitch strategies we saw earlier.
+I'll note that one can be completely competent only being able to immediately perceive the "particulars," for example, AP lends one the ability to deduce the features of almost anything in terms of the perceptual categories for absolute chroma(e.g. equal-tempered $\text{A} = 440\text{Hz}$ music), while non-AP listeners of Western tonal music can easily and intuitively process things in terms of categories for relative chroma as well. 
 
-In practice, this means if one were to "start from scratch" I would suggest one to:
 
-1. Learn how to hear elements of $S^2(\mathscr{P}\_{\rm C})/{\sim_{\rm H}}$, "harmonic content" of size 2. In practice, this involves recognizing and categorizing into 6 categories.
 
-2. Learn how to hear harmonic intervals($S^2(\mathscr{P})/{\sim_{\rm H}}$) and relative chroma($\mathscr{P}\_{\rm SC}$, 12 categories) at roughly the same pace. This order stems from the fact that they both have a reasonably "canonical" map to $S^2(\mathscr{P_{\rm C}})/{\sim_{\rm H}}$. Additionally, I suspect learning 1. will make this step significantly easier.
-
-3. Learn how to hear larger harmonic shapes and contents. Here an indirect strategy of perceiving smaller "subshapes" or "subcontents" and determining how they "fit" together may be useful.
 
 
 
