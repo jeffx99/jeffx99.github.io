@@ -8,7 +8,7 @@ categories: music
 The purpose of this post is twofold: 
 
 1. to define some mathematical objects and spaces(also for future musical analysis) representing a small subset of what I call the "relevant(to the Western idiom) abstract features" of music, and
-3. to discuss and (largely) speculate about the process of the musical perception of these features and perceptual tasks/strategies, and argue against what I call "hyperattention" and suggest how this can be avoided.
+3. to discuss and (largely) speculate about the process of the musical perception of these features and perceptual tasks/strategies, and argue against what I call "hyperattention."
 
 
 ## Frequency and Pitch
