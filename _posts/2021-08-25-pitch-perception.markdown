@@ -162,6 +162,7 @@ I think this account of perception is in line with a commonly accepted theory in
 <div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;">
 <img src="/assets/images/rht_diagram.png" style="flex:0.6; min-width: 0;">
 </div>
+<div class="fig-caption">Figure: An illustration of the hiearchy of processing. (<a href="https://www.sciencedirect.com/science/article/pii/S1364661304002153" target="blank">source</a>) </div>
 
 While the previous diagram illustrates such a system in what is known as the "visual modality," the following two examples demonstrate consequences of such a system in the auditory modality, as described in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674477/" target="blank">this article</a>:
 
@@ -175,7 +176,7 @@ While the previous diagram illustrates such a system in what is known as the "vi
 
 ### Perceptual Strategies
 
-I believe it is musically important for one to be able to succeed in many of the perceptual tasks corresponding to the abstract features I defined earlier. One such perceptual task is _categorization_, in which one must identify each stimulus as belonging to some determined category. It is thought that the ability to categorize absolute chroma, referred to as absolute pitch(AP), involves two subprocesses:
+I believe it is musically important for one to be able to succeed in many of the perceptual tasks corresponding to the abstract features I defined earlier. One such perceptual task is _categorization_, in which one must identify each stimulus as belonging to some determined category. <a href="https://www.frontiersin.org/articles/10.3389/fnins.2017.00557/full" target="blank">It is thought</a> that the ability to categorize absolute chroma, referred to as absolute pitch(AP), involves two subprocesses:
 
 - a perceptual process which forms discrete categories from the continuum of absolute chroma, and 
 - an associative memory process to provide labels to these categories.
@@ -210,3 +211,5 @@ This hypothesis argues against a <a href="https://en.wikipedia.org/wiki/Interval
 While I have presented an argument that functionally, in terms of completing perceptual tasks, one is benefited by a direct strategy and inhibited by hyperattention, I would also argue that subjectively, one's musical experience is simply broadened by the ability to immediately perceive both high-level and low-level abstract features. One needs to see the forest for the trees, and yet recognize how each individual tree comprises the forest. Clarifying, I don't mean to argue that indirect strategies are never useful, but rather that more direct strategies represent an immediate perception more in line with the feature at hand, and that hyperattention makes this more difficult.
 
 I'll note that one can be completely competent only being able to immediately perceive the "particulars," for example, AP lends one the ability to deduce the features of almost anything in terms of the perceptual categories for absolute chroma (e.g. equal-tempered $\text{A} = [440\text{Hz}]$ music), while non-AP listeners of Western tonal music can easily and intuitively process things in terms of categories for relative chroma as well. 
+
+When moving towards more "adventurous" domains in music, however, I think these points should be stressed in ear training. For example, one exploring the realms of atonality _should_ focus on learning to hear intervals directly and even higher constructs such as trichords(harmonic content of size 3).
