@@ -5,14 +5,14 @@
 	overflow-y: hidden;
 }
 
-.theorem, .lemma, {
+.theorem, .lemma {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: block;
 	font-style: italic;
 }
 
-.corollary, .question {
+.corollary, .question, .definition {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	display: block;
@@ -42,7 +42,13 @@
 	font-style: normal;
 }
 
-.theorem[text]:before, .lemma[text]:before, .corollary[text]:before, .question[text]:before {
+.definition:before{
+	content: "Defintion. ";
+	font-weight: bold;
+	font-style: normal;
+}
+
+.theorem[text]:before, .lemma[text]:before, .corollary[text]:before, .question[text]:before, .definition[text]:before {
 	content: "<b>Theorem</b>. "attr(text) ")";
 	font-weight: normal;
 }

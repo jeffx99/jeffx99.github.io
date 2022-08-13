@@ -45,7 +45,7 @@ Now one can quotient by the equivalence relation $\sim_{\rm RC}$ where $([\nu_1]
 
 The values each region depicted above centers around are in some sense "unnatural," and coming from the the equal division of regions for absolute chroma. An alternative method of providing labels to relative chroma is *just intonation*. An example of this is given by $7$-limit tuning wherein one may provide labels as follows:
 
-<div style="overflow-x: scroll;">
+<div style="overflow-x: auto;">
 <table style="font-size: 13px;">
   <tr>
     <th>Label</th>
