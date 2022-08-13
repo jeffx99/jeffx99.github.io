@@ -43,7 +43,7 @@ Now one can quotient by the equivalence relation $\sim_{\rm RC}$ where $([\nu_1]
 <img src="/assets/images/relative_chroma_diagram.svg" style="display: block; max-width: 50%;margin-left: auto; margin-right: auto;">
 <div class="fig-caption">Figure: Regions on $\mb{S}^1$ depicting regions corresponding to labels for relative chroma used in modern Western music. </div>
 
-The values each region depicted above centers around are in some sense "unnatural," and in fact come from the the equal division of regions for absolute chroma. An alternative method of providing labels to relative chroma is *just intonation*. An example of this is given by $7$-limit tuning wherein one may provide labels as follows:
+The values each region depicted above centers around are in some sense "unnatural," and coming from the the equal division of regions for absolute chroma. An alternative method of providing labels to relative chroma is *just intonation*. An example of this is given by $7$-limit tuning wherein one may provide labels as follows:
 
 <div style="overflow-x: scroll;">
 <table style="font-size: 13px;">
@@ -86,4 +86,4 @@ There are many possible ways of giving "ideal" values to each of the above label
 
 ## Tonic perception
 
-to be continued...
+The mechanism by which one establishes a tonic while listening to music does not seem to be completely clear, and may even be subjective in certain circumstances. It is clear, however, that this process is dependent on cultural expectations, e.g., the concept of a major key or minor key and the expectation for a piece to somewhat abide by the rules of Western tonality. With this in mind, the following might be an interesting way algorithmically determine the key(and thus tonic) from a given melody: one creates two $12 \times 12$ matrices of transition probabilities for notes(for both the major and minor modes) and then computes the probability of the melody implying each of the $24$ keys. One would then look for the option which yields the highest probability. I doubt such a comparative process is what is actually going on when one listens to music, as it would imply that some "absolute" information about each of the $24$ keys are stored in the brain. Another(more realistic?) approach might recognize specific intervallic patterns found in the major or minor scale to establish the tonic.
