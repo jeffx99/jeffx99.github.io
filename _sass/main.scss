@@ -365,3 +365,15 @@ nav a:hover {
 .footer a:visited {
 	color: rgb(204, 210, 219);
 }
+
+.post-card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  padding: 16px;
+  margin: 10px;
+  font-size: 13px;
+  background-color: #222626;
+}
+
+.post-card:hover {
+  background-color: #2b2929;
+}

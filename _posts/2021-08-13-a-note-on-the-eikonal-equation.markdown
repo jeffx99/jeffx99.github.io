@@ -9,6 +9,8 @@ categories: math
 <div class="theorem">
 Suppose $u \in C^3(\R^2)$ satisfies the eikonal equation $\abs{\nabla u} = 1$. Then $\nabla u$ is constant.
 </div>
+<!--more-->
+
 <div class="proof">
 By the Bochner formula
 \begin{equation}

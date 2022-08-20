@@ -5,15 +5,15 @@ date: 2022-08-07
 categories: math
 ---
 
-## The Count Sketch Algorithm
 
 Consider a data stream $\\{q\_i\\}\_{i=1}^{\infty}$ of elements $q\_i$ each belonging to some finite set of outcomes $\mathcal{O} = \\{o\_1, \ldots, o\_N\\}$. Then at each moment $t$, one may define a *count vector* $\mathbf{x}(t) \in \R^N$ defined by
 \begin{equation\*}
     x\_n(t) = \abs{\\{i \leq t \mid q\_i = o\_n\\}}.
 \end{equation\*}
 The <font style="font-variant: small-caps">count sketch</font> structure allows one to produce a good approximation to $\mathbf{x}(t)$, referred to as a *sketch*, using space sublinear in $t$. We describe the structure from a different, but equivalent, perspective than discussed in the [original document](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.695&rep=rep1&type=pdf) introducing the sketching algorithm.
+<!--more-->
 
-### The "Abstract Sketch" Algorithm
+## The "Abstract Sketch" Algorithm
 Fix an integer $d \geq 0$ and consider the $d$-sphere $\mathbb{S}^d = \\{\mathbf{a} \in \R^{d+1} \mid \abs{\mathbf{a}} = 1\\}$. A map $\mathcal{O} \to \mathbb{S}^d$ may be thought of as a point on the product $X = (\mathbb{S}^d)^N$, which may be endowed with an appropriate measure. Thus, we may speak of choosing a random map $\xi \colon \mathcal{O} \to \mathbb{S}^d$ uniformly from $X$. Furthermore, denote $\xi\_{n} = \xi(o\_n)$, so that we may suppress $o\_n$ in our notation.
 
 <div class="lemma">

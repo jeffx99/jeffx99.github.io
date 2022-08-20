@@ -6,6 +6,8 @@ categories: music
 ---
 
 In this short post I describe briefly some ways to visualize pitch perception, tuning and temperaments, and speculate on how the process of solmization occurs.
+<!--more-->
+
 $\newcommand{\Hz}{\text{ Hz}}$
 
 ## Pitch <span style='color: red'>C</span><span style='color: orange'>h</span><span style='color: gold'>r</span><span style='color: green'>o</span><span style='color: blue'>m</span><span style='color: purple'>a</span>

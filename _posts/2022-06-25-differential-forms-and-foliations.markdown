@@ -5,7 +5,8 @@ date: 2022-06-25
 categories: math
 ---
 
-The following post is somewhat of a rigorous extension to [Dan Piponi's](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.126.1099&rep=rep1&type=pdf) document on an intuitive visualization of differential forms.
+This post is somewhat of a rigorous extension to [Dan Piponi's](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.126.1099&rep=rep1&type=pdf) document on an intuitive visualization of differential forms.
+<!--more-->
 
 [to be continued]
 $\DeclareMathOperator{\codim}{codim}$

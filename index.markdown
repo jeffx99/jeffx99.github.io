@@ -10,3 +10,15 @@ title: musicalmorphisms
 <hr style="margin: auto">
 
 _This page is still under construction..._
+
+
+## Recent posts
+<ul style="list-style:none; padding:0">
+  {% for post in site.posts limit:5 %}
+    <li class="post-card">
+      <a href="{{ post.url }}" style="text-decoration:none; font-size: 20px; font-weight: medium">{{ post.title }}</a>
+      <br>
+      {{ post.excerpt | strip_html | strip | append: ".." }}
+    </li>
+  {% endfor %}
+</ul>
