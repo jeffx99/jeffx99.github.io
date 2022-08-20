@@ -24,13 +24,13 @@ since for a $2 \times 2$ matrix $A$ with eigenvalues $\lambda_1, \lambda_2$, we 
 \end{equation}
 Now for any vector field $X$ we have
 \begin{equation}
-    \Hess_u(X, \nabla u) = \inner{\nabla_X \nabla u, \nabla u} = \nabla_X \abs{\nabla u}^2 = 0, 
+    \Hess_u(X, \nabla u) = \inner{\nabla_X \nabla u, \nabla u} = \nabla_X \abs{\nabla u}^2 = 0,
 \end{equation}
 so the Hessian is degenerate and thus $\det \Hess_u = 0$. Together, we have $\inner{\nabla \Delta u, \nabla u} + (\Delta u)^2 = 0$. Let $Y = \nabla u$ and $f = \Delta u$, so that we may rephrase this as the differential equation $Yf + f^2 = 0$. Now since $\abs{Y}$ is bounded, $Y$ is a complete vector field. Suppose, for the sake of contradiction, that there exists a point $x_0 \in \R^2$ such that $f(x_0) \neq 0$. Then consider the integral curve $\gamma \colon (-\infty, \infty) \to \R^2$ with $\gamma(0) = x_0$ and $\gamma'(t) = Y_{\gamma(t)}$. One has, letting $g = f \circ \gamma$,
 \begin{equation}
     Y_{\gamma(t)}f + f(\gamma(t))^2 = g'(t) + g(t)^2 = 0,
 \end{equation}
-which by uniqueness of solutions implies 
+which by uniqueness of solutions implies
 \begin{equation}
     g(t) = \frac{1}{t - t_0}; \quad t_0 = -\frac{1}{g(0)},
 \end{equation}

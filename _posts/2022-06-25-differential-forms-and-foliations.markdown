@@ -14,7 +14,7 @@ $\DeclareMathOperator{\Int}{Int}$
 $\DeclareMathOperator{\cl}{cl}$
 $\newcommand{\transv}{\pitchfork}$
 
-# Foliations
+## Foliations
 
 <div class="definition">
 Let $M$ be an orientable manifold and $L$ be a orientable manifold with Lebesgue measure $\mu_L$. A <i>foliation</i> along a smooth map $\mathfrak{F} \colon M \to L$ is a collection of subsets $\{\mathfrak{F}_\alpha\}$ of the form $\mathfrak{F}_{\alpha} = \mathfrak{F}^{-1}\{\alpha\}$ for $\alpha \in L$.
@@ -99,6 +99,6 @@ In light of this proof, the work done to show that $\mathrm{I}\_N$ was measurabl
 
 Some obvious consequences: suppose that $N$ is the boundary of a open submanifold of $M$. If one starts with the well-known fact that $\mathrm{I}\_N$ vanishes everywhere, one obtains that $\mathrm{I}\_{N}[\mathfrak{F}]$ vanishes. This implies that that the analogous form integrates to $0$ over any boundary, and is thus closed. Of course, this is obvious since the analogous form is the pullback of a volume form, which is closed. Conversely, given that the analogous form is closed, one has that $\mathrm{I}\_{N}[\mathfrak{F}]$ vanishes on any boundary $N$. Then concentrating the measure $\mu\_L$ within a neighborhood of some $\alpha \in L$ and applying the theorem yields that $\mathrm{I}\_N(\alpha) = 0$ almost everywhere, which is a weaker version of the well-known result(see Guillemin and Pollack for example).
 
-# Wedge Products and Exterior Derivatives
+## Wedge Products and Exterior Derivatives
 
 So far we have developed in a rigorous manner the notion of counting how many "layers" a given curve or tangent vector pass through, as described by Piponi. One would like to work with wedge products and exterior derivatives in this framework, ultimately leading to an analog of Stokes' theorem. For the wedge product, one considers the family of leaf intersections indexed over the product leaf space. In order to take nontrivial exterior derivatives, we must instead work with a "terraced" foliation---a foliation in which the leaves are submanifolds with boundaries. In this way, one may talk about taking the "boundary" of such a foliation. I'll leave the discussion of such a construction for a later post.

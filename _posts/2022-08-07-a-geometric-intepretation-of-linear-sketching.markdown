@@ -5,7 +5,7 @@ date: 2022-08-07
 categories: math
 ---
 
-# The Count Sketch Algorithm
+## The Count Sketch Algorithm
 
 Consider a data stream $\\{q\_i\\}\_{i=1}^{\infty}$ of elements $q\_i$ each belonging to some finite set of outcomes $\mathcal{O} = \\{o\_1, \ldots, o\_N\\}$. Then at each moment $t$, one may define a *count vector* $\mathbf{x}(t) \in \R^N$ defined by
 \begin{equation\*}
@@ -13,7 +13,7 @@ Consider a data stream $\\{q\_i\\}\_{i=1}^{\infty}$ of elements $q\_i$ each belo
 \end{equation\*}
 The <font style="font-variant: small-caps">count sketch</font> structure allows one to produce a good approximation to $\mathbf{x}(t)$, referred to as a *sketch*, using space sublinear in $t$. We describe the structure from a different, but equivalent, perspective than discussed in the [original document](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.695&rep=rep1&type=pdf) introducing the sketching algorithm.
 
-## The "Abstract Sketch" Algorithm
+### The "Abstract Sketch" Algorithm
 Fix an integer $d \geq 0$ and consider the $d$-sphere $\mathbb{S}^d = \\{\mathbf{a} \in \R^{d+1} \mid \abs{\mathbf{a}} = 1\\}$. A map $\mathcal{O} \to \mathbb{S}^d$ may be thought of as a point on the product $X = (\mathbb{S}^d)^N$, which may be endowed with an appropriate measure. Thus, we may speak of choosing a random map $\xi \colon \mathcal{O} \to \mathbb{S}^d$ uniformly from $X$. Furthermore, denote $\xi\_{n} = \xi(o\_n)$, so that we may suppress $o\_n$ in our notation.
 
 <div class="lemma">
@@ -160,7 +160,7 @@ Now a generalization of the [Welch bound](https://www.wikiwand.com/en/Welch_boun
 \end{equation}
 One can then generalize the variance theorem to see that the variance achieved is in fact optimal among all choices for discretization.
 
-# A Count Sketch Variant
+## A Count Sketch Variant
 Let us refer to the choice $\mathcal{S}\_{\rm cross} = \\{\pm \mathbf{f}\_j\\}$ as a \say{cross-polytope} discretization of $\mathbb{S}^d$(since the convex hull of $\mathcal{S}\_{\rm cross}$ is a cross-polytope). For all $d \geq 0$ there exists a choice of balanced $\mathcal{S}$ with $\abs{\mathcal{S}} = d+2$, the \textit{simplicial} discretization $\mathcal{S}\_{\rm simp}$. Specifically, $\mathcal{S}\_{\rm simp}$ consists of the vertices of a regular $(d+1)$--simplex inscribed in $\mathbb{S}^d$. By symmetry, one has that for $\inner{s\_j, s\_k}$ is equal to some constant for $j \neq k$. Furthermore,
 \begin{equation}
     0 = \sum\_{s \in \mathcal{S}} \inner{s\_j, s} = \inner{s\_j, s\_j} + \sum\_{j \neq k} \inner{s\_j, s\_k},
