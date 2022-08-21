@@ -75,3 +75,7 @@
 .proof[text]:before {
 	content: attr(text);
 }
+
+mjx-stretchy-v.mjx-c7C > mjx-ext > mjx-c {
+	transform: scale(1.5, 500) translate(-.08em, .075em);
+}

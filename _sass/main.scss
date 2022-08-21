@@ -36,16 +36,19 @@ th {
 
 h1 {
   font-family: Cinzel;
+  color: #e6cfb1;
 }
 
 h2 {
   font-family: Cinzel;
   font-weight: medium;
+  color: #e6cfb1;
 }
 
 h3, h4, h5, h6 {
 	font-family: Cinzel;
-  font-weight: normal;
+  font-weight: medium;
+  color: #e6cfb1;
 }
 
 blockquote {
@@ -276,7 +279,7 @@ nav a:hover {
 	border-color: rgba(107, 99, 88, 0.2);
 
   line-height: 1.4;
-  height: 100%;
+  //height: 100%;
 
 	//box-shadow: 4px 0 16px 0 rgba(0, 0, 0, 0.5), -4px 0 16px 0 rgba(0, 0, 0, 0.05);
 }
