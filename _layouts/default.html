@@ -205,70 +205,68 @@
 <body onload="load()">
   <div class="content-footer-area">
     {% include navbar.html %}
-    <div class="wrapper">
-      <div class="content-area">
-        <div class="main-card">
-          {{ content }}
-        </div>
-        <div class="sidenav-container">
-          <div class="sidenav">
-            <button class="accordion top-level">Projects</button>
-            <div class="panel">
-            </div>
+    <div class="content-area">
+      <div class="main-card">
+        {{ content }}
+      </div>
+      <div class="sidenav-container">
+        <div class="sidenav">
+          <button class="accordion top-level">Projects</button>
+          <div class="panel">
+          </div>
 
-            <button class="accordion top-level">Music</button>
-            <div class="panel">
-              {% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'composition'" |group_by_exp:"post", "post.date | date: '%Y'" %}
-              {% for year in postsByYear %}
-                <button class="accordion second-level">{{ year.name }}</button>
-                <div class="panel">
-                  {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
-                  {% for month in postsByMonth %}
-                    <button class="accordion third-level">{{ month.name }}</button>
-                    <div class="panel" style=>
-                      <ul class="post-list">
-                        {% for post in month.items %}
-                          <li>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                          </li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  {% endfor %}
-                </div>
-              {% endfor %}
-            </div>
-
-            <button class="accordion top-level">Posts</button>
-            <div class="panel">
-              {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-              {% for year in postsByYear %}
-                <button class="accordion second-level">{{ year.name }}</button>
-                <div class="panel">
-                  {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
-                  {% for month in postsByMonth %}
-                    <button class="accordion third-level">{{ month.name }}</button>
-                    <div class="panel" style=>
-                      <ul class="post-list">
-                        {% for post in month.items %}
+          <button class="accordion top-level">Music</button>
+          <div class="panel">
+            {% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'composition'" |group_by_exp:"post", "post.date | date: '%Y'" %}
+            {% for year in postsByYear %}
+              <button class="accordion second-level">{{ year.name }}</button>
+              <div class="panel">
+                {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+                {% for month in postsByMonth %}
+                  <button class="accordion third-level">{{ month.name }}</button>
+                  <div class="panel" style=>
+                    <ul class="post-list">
+                      {% for post in month.items %}
                         <li>
                           <a href="{{ post.url }}">{{ post.title }}</a>
                         </li>
-                        {% endfor %}
-                      </ul>
-                    </div>
-                  {% endfor %}
-                </div>
-              {% endfor %}
-            </div>
-            <button class="accordion top-level">CV</button>
-            <div class="panel">
-            </div>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+
+          <button class="accordion top-level">Posts</button>
+          <div class="panel">
+            {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            {% for year in postsByYear %}
+              <button class="accordion second-level">{{ year.name }}</button>
+              <div class="panel">
+                {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+                {% for month in postsByMonth %}
+                  <button class="accordion third-level">{{ month.name }}</button>
+                  <div class="panel" style=>
+                    <ul class="post-list">
+                      {% for post in month.items %}
+                      <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+          <button class="accordion top-level">CV</button>
+          <div class="panel">
           </div>
         </div>
       </div>
-      {% include footer.html %}
     </div>
+    {% include footer.html %}
   </div>
 
 
