@@ -62,13 +62,7 @@ governing the time evolution of a classical state.
 
 ## The Weyl-Wigner Transform
 
-As before, we shall consider a single particle in one dimension, but in the Schrödinger picture of quantum mechanics. Given a (normalized) pure state $\ket{\psi}$, one may define the _density operator_ $\ketbra{\psi}{\psi}$. The action of the density operator on a (normalized) state $\phi$ scales the state vector $\ket{\psi}$ by the overlap $\braket{\psi}{\phi}$. In this way, the expected value of the density operator on a state $\phi$ is $\langle \hat{\rho} \rangle\_\phi = |\\!\braket{\psi|\phi}|^2$, which can be interpreted as the probability $\psi$ will be found in the same state as $\phi$ upon measurement. To confirm this, let $\hat{A}$ be a self-adjoint operator corresponding to some observable. Let $\\{\ket{\eta_i}\\}$ be the eigenstates of $\hat{A}$, which form a complete orthonormal basis of the state space. The probability that $\psi$ and $\phi$ are found in the same state upon measurement is thus
-\begin{align}
-    p\_A(\psi, \phi) = \sum |\\!\braket{\psi|\eta_i}|^2 |\\!\braket{\phi|\eta_i}|^2 &= \sum|\\!\braket{\psi|\eta_i} \braket{\eta_i|\phi}|^2 \newline
-    &=  |\\!\braket{\psi|\phi}|^2 \newline
-    &= \langle \hat{\rho} \rangle\_{\phi}.
-\end{align}
-Note that the probability $\langle \hat{\rho} \rangle_{\phi}$ is independent of the actual observable being measured. The Schrödinger equation implies that the density operator evolves in time by
+As before, we shall consider a single particle in one dimension, but in the Schrödinger picture of quantum mechanics. Given a (normalized) pure state $\ket{\psi}$, one may define the _density operator_ $\ketbra{\psi}{\psi}$. The action of the density operator on a (normalized) state $\phi$ scales the state vector $\ket{\psi}$ by the overlap $\braket{\psi}{\phi}$. In this way, the expected value of the density operator on a state $\phi$ is $\langle \hat{\rho} \rangle\_\phi = |\\!\braket{\psi|\phi}|^2$, which can be interpreted as the probability $\psi$ will be found in the same state as $\phi$ upon measurement. The Schrödinger equation implies that the density operator evolves in time by
 \begin{align}
     \frac{\partial \hat{\rho}}{\partial t} = \frac{\partial \ket{\psi}}{\partial t} \bra{\psi} + \ket{\psi}\frac{\partial \bra{\psi}}{\partial t} = \frac{1}{i\hbar} \left[\hat{H} \hat{\rho} - \hat{\rho} \hat{H}\right] = \frac{1}{i\hbar} [\hat{H}, \hat{\rho}].
 \end{align}
